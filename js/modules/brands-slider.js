@@ -15,8 +15,6 @@ export const brandsSlider=async(brands)=>{
     
 }
 
-
-
 const brandsAutoScroll=()=>{
     let interval=null;
     start()

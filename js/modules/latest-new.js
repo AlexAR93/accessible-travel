@@ -14,6 +14,9 @@ export default function sliderLatestNew(lodgings){
         article.setAttribute('id',`product${i}`),
         tittle.innerHTML=lodging.location,
         a.innerHTML='Detalles',
+
+        // Redirigir al HTML de detalle
+        a.setAttribute('href', `detalle.html?id=${lodging.id}`),
     
         img.setAttribute('src',lodging.images[0]),
         img.setAttribute('alt',lodging.location),
