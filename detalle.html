@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destino - Accessible Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header {
+    background: url('Assets/skyairline_skyairline_image_182-1536x1024.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+        .product-description {
+            margin-top: 30px;
+        }
+
+        h1{
+            font-size: 100px;
+         }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Assets\logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Accesible Travel
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Catálogo
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Destinos</a></li>
+                            <li><a class="dropdown-item" href="#">Hospedajes</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <form class="d-flex ms-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="text-center w-100">
+            <h1>Buenos Aires</h1>
+        </div>
+    </header>
+
+    <div class="container product-description">
+        <h2>Detalles: </h2>
+        <p>La capital trasandina es una de las ciudades más grandes de Latinoamérica y posee muchos contrastes culturales de todo tipo en cuanto a la arquitectura, gastronomía, literatura, música y deportes, entre otros.
+            De hecho, Buenos Aires es reconocida por su estilo de vida cosmopolita en el que se mezclan las culturas francesa, italiana y británica con la cultura latinoamericana.
+            Ciertamente, la “ciudad de la furia” llega a emocionar con su grandeza y maravilla..</p>
+        <ul class="list-group">
+            <li class="list-group-item">Característica 1</li>
+            <li class="list-group-item">Característica 2</li>
+            <li class="list-group-item">Característica 3</li>
+        </ul>
+
+        <div class="my-4">
+            <br><br>
+            <h4>Precio: $99.99</h4>
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="99" value="1" class="form-control w-25 mb-3">
+            <br>
+            <button class="btn btn-success btn-lg">Comprar</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
