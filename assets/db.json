@@ -8,10 +8,10 @@
                     "latitude": -34.6037,
                     "longitude": -58.3816
                 },
-                "type": "hotel",
+                "type": 1,
                 "description": "Hotel 5 estrellas de lujo en pleno centro de Buenos Aires, cerca de la Avenida 9 de Julio y el Obelisco.",
                 "pricePerNight": 120,
-                "currency": "USD",
+                "currency": "ARS",
                 "availability": true,
                 "score": 9.2,
                 "services": ["Wi-Fi gratuito", "Desayuno incluido", "Gimnasio", "Spa", "Piscina interior", "Servicio a la habitación"],
@@ -51,7 +51,7 @@
                     "latitude": -41.1335,
                     "longitude": -71.3103
                 },
-                "type": "cabin",
+                "type": 3,
                 "description": "Cabañas rústicas pero modernas con vistas espectaculares al lago Nahuel Huapi, ideales para relajarse y disfrutar la naturaleza.",
                 "pricePerNight": 80,
                 "currency": "USD",
@@ -94,7 +94,7 @@
                     "latitude": -32.8895,
                     "longitude": -68.8458
                 },
-                "type": "hostel",
+                "type": 2,
                 "description": "Hostel económico y amigable, ubicado cerca de las principales bodegas de Mendoza. Perfecto para mochileros.",
                 "pricePerNight": 40,
                 "currency": "USD",
@@ -129,92 +129,6 @@
                     }
                 ],
                 "images": ["./assets/img/3.webp"]
-            },
-            {
-                "id":3,
-                "location": "San Luis",
-                "gps": {
-                    "latitude": -32.8895,
-                    "longitude": -68.8458
-                },
-                "type": "hostel",
-                "description": "Hostel económico y amigable, ubicado cerca de las principales bodegas de Mendoza. Perfecto para mochileros.",
-                "pricePerNight": 40,
-                "currency": "USD",
-                "availability": false,
-                "score": 7.5,
-                "services": ["Wi-Fi gratuito", "Desayuno disponible", "Alquiler de bicicletas", "Cocina compartida"],
-                "roomDetails": {
-                    "roomType": "Dormitorio compartido",
-                    "beds": "1 cama individual",
-                    "maxGuests": 1
-                },
-                "checkIn": "12:00",
-                "checkOut": "10:00",
-                "cancellationPolicy": "No reembolsable",
-                "nearbyAttractions": [
-                    {"name": "Bodega Catena Zapata", "distance": "5km"},
-                    {"name": "Parque General San Martín", "distance": "2km"},
-                    {"name": "Plaza Independencia", "distance": "1.5km"}
-                ],
-                "reviews": [
-                    {
-                    "user": "Luis Martínez",
-                    "date": "2024-05-10",
-                    "rating": 7,
-                    "comment": "Ideal para mochileros, pero las instalaciones son algo básicas."
-                    },
-                    {
-                    "user": "Valeria Sánchez",
-                    "date": "2024-04-25",
-                    "rating": 8,
-                    "comment": "Buena ubicación y precio. Las bicicletas de alquiler son un gran plus."
-                    }
-                ],
-                "images": ["./assets/img/1.webp"]
-            },
-            {
-                "id":4,
-                "location": "Mendoza",
-                "gps": {
-                    "latitude": -32.8895,
-                    "longitude": -68.8458
-                },
-                "type": "hostel",
-                "description": "Hostel económico y amigable, ubicado cerca de las principales bodegas de Mendoza. Perfecto para mochileros.",
-                "pricePerNight": 40,
-                "currency": "USD",
-                "availability": false,
-                "score": 7.5,
-                "services": ["Wi-Fi gratuito", "Desayuno disponible", "Alquiler de bicicletas", "Cocina compartida"],
-                "roomDetails": {
-                    "roomType": "Dormitorio compartido",
-                    "beds": "1 cama individual",
-                    "maxGuests": 1
-                },
-                "checkIn": "12:00",
-                "checkOut": "10:00",
-                "cancellationPolicy": "No reembolsable",
-                "nearbyAttractions": [
-                    {"name": "Bodega Catena Zapata", "distance": "5km"},
-                    {"name": "Parque General San Martín", "distance": "2km"},
-                    {"name": "Plaza Independencia", "distance": "1.5km"}
-                ],
-                "reviews": [
-                    {
-                    "user": "Luis Martínez",
-                    "date": "2024-05-10",
-                    "rating": 7,
-                    "comment": "Ideal para mochileros, pero las instalaciones son algo básicas."
-                    },
-                    {
-                    "user": "Valeria Sánchez",
-                    "date": "2024-04-25",
-                    "rating": 8,
-                    "comment": "Buena ubicación y precio. Las bicicletas de alquiler son un gran plus."
-                    }
-                ],
-                "images": ["./assets/img/brand-7.png"]
             }
         ],
         "flights": [

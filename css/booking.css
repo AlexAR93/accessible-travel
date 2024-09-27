@@ -1,0 +1,26 @@
+.bg-lodging{
+  background: #000;
+  height: 90vh;
+  overflow: scroll;
+}
+.lodging-card {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex !important;
+  flex-direction: column;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 550px;
+}
+
+.lodging-card img{
+  height: 250px;
+}
+.lodging-card div{
+  margin: 10px 0 2px 0;
+}
+.lodging-card a{
+  margin-top: auto;
+}
