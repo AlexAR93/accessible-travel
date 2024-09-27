@@ -129,6 +129,92 @@
                     }
                 ],
                 "images": ["./assets/img/3.webp"]
+            },
+            {
+                "id":3,
+                "location": "Buenos Aires",
+                "gps": {
+                    "latitude": -32.8895,
+                    "longitude": -68.8458
+                },
+                "type": 1,
+                "description": "Hostel económico y amigable, ubicado cerca de las principales bodegas de Mendoza. Perfecto para mochileros.",
+                "pricePerNight": 40,
+                "currency": "USD",
+                "availability": false,
+                "score": 7.5,
+                "services": ["Wi-Fi gratuito", "Desayuno disponible", "Alquiler de bicicletas", "Cocina compartida"],
+                "roomDetails": {
+                    "roomType": "Dormitorio compartido",
+                    "beds": "1 cama individual",
+                    "maxGuests": 1
+                },
+                "checkIn": "12:00",
+                "checkOut": "10:00",
+                "cancellationPolicy": "No reembolsable",
+                "nearbyAttractions": [
+                    {"name": "Bodega Catena Zapata", "distance": "5km"},
+                    {"name": "Parque General San Martín", "distance": "2km"},
+                    {"name": "Plaza Independencia", "distance": "1.5km"}
+                ],
+                "reviews": [
+                    {
+                    "user": "Luis Martínez",
+                    "date": "2024-05-10",
+                    "rating": 7,
+                    "comment": "Ideal para mochileros, pero las instalaciones son algo básicas."
+                    },
+                    {
+                    "user": "Valeria Sánchez",
+                    "date": "2024-04-25",
+                    "rating": 8,
+                    "comment": "Buena ubicación y precio. Las bicicletas de alquiler son un gran plus."
+                    }
+                ],
+                "images": ["./assets/img/3.webp"]
+            },
+            {
+                "id":4,
+                "location": "Mendoza",
+                "gps": {
+                    "latitude": -32.8895,
+                    "longitude": -68.8458
+                },
+                "type": 2,
+                "description": "Hostel económico y amigable, ubicado cerca de las principales bodegas de Mendoza. Perfecto para mochileros.",
+                "pricePerNight": 40,
+                "currency": "ARS",
+                "availability": false,
+                "score": 7.5,
+                "services": ["Wi-Fi gratuito", "Desayuno disponible", "Alquiler de bicicletas", "Cocina compartida"],
+                "roomDetails": {
+                    "roomType": "Dormitorio compartido",
+                    "beds": "1 cama individual",
+                    "maxGuests": 1
+                },
+                "checkIn": "12:00",
+                "checkOut": "10:00",
+                "cancellationPolicy": "No reembolsable",
+                "nearbyAttractions": [
+                    {"name": "Bodega Catena Zapata", "distance": "5km"},
+                    {"name": "Parque General San Martín", "distance": "2km"},
+                    {"name": "Plaza Independencia", "distance": "1.5km"}
+                ],
+                "reviews": [
+                    {
+                    "user": "Luis Martínez",
+                    "date": "2024-05-10",
+                    "rating": 7,
+                    "comment": "Ideal para mochileros, pero las instalaciones son algo básicas."
+                    },
+                    {
+                    "user": "Valeria Sánchez",
+                    "date": "2024-04-25",
+                    "rating": 8,
+                    "comment": "Buena ubicación y precio. Las bicicletas de alquiler son un gran plus."
+                    }
+                ],
+                "images": ["./assets/img/3.webp"]
             }
         ],
         "flights": [
