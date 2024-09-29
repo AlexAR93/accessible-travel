@@ -1,6 +1,9 @@
 body{
   background: #eee;
 }
+main{
+  min-height: 70vh;
+}
 .brands {
     width: inherit;
     overflow: hidden;
@@ -28,4 +31,8 @@ body{
     .brands__slider div {
       min-width: 20%;
     }
+  }
+
+  .carousel{
+    height: fit-content;
   }
