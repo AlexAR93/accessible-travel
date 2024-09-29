@@ -4,6 +4,9 @@ body{
 main{
   min-height: 70vh;
 }
+textarea{
+  resize: none;
+}
 .brands {
     width: inherit;
     overflow: hidden;
@@ -33,6 +36,3 @@ main{
     }
   }
 
-  .carousel{
-    height: fit-content;
-  }
