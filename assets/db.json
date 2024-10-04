@@ -10,7 +10,7 @@
                 },
                 "type": 1,
                 "description": "Hotel 5 estrellas de lujo en pleno centro de Buenos Aires, cerca de la Avenida 9 de Julio y el Obelisco.",
-                "pricePerNight": 120,
+                "pricePerNight": 120000,
                 "currency": "ARS",
                 "availability": true,
                 "score": 9.2,
@@ -139,7 +139,7 @@
                 },
                 "type": 1,
                 "description": "Hotel 5 estrellas de lujo en pleno centro de Buenos Aires, cerca de la Avenida 9 de Julio y el Obelisco.",
-                "pricePerNight": 120,
+                "pricePerNight": 120000,
                 "currency": "ARS",
                 "availability": true,
                 "score": 9.2,
@@ -182,7 +182,7 @@
                 },
                 "type": 2,
                 "description": "Hostel económico y amigable, ubicado cerca de las principales bodegas de Mendoza. Perfecto para mochileros.",
-                "pricePerNight": 40,
+                "pricePerNight": 40000,
                 "currency": "ARS",
                 "availability": false,
                 "score": 7.5,
@@ -215,7 +215,180 @@
                     }
                 ],
                 "images": ["./assets/img/3.webp","./assets/img/mendoza.png","./assets/img/mendoza-3.jpg"]
+            },
+            {
+                "id": 5,
+                "location": "Córdoba",
+                "gps": {
+                    "latitude": -31.4201,
+                    "longitude": -64.1888
+                },
+                "type": 2,
+                "description": "hostel moderno y económico en el corazón de Córdoba, cerca de la Plaza San Martín. Ideal para jóvenes viajeros.",
+                "pricePerNight": 35,
+                "currency": "USD",
+                "availability": true,
+                "score": 8.0,
+                "services": ["Wi-Fi gratuito", "Cocina compartida", "Sala de juegos", "Terraza"],
+                "roomDetails": {
+                    "roomType": "Dormitorio compartido",
+                    "beds": "1 cama individual",
+                    "maxGuests": 1
+                },
+                "checkIn": "13:00",
+                "checkOut": "10:00",
+                "cancellationPolicy": "Cancelación gratuita hasta 48 horas antes del check-in.",
+                "nearbyAttractions": [
+                    {"name": "Plaza San Martín", "distance": "500m"},
+                    {"name": "Manzana Jesuítica", "distance": "800m"},
+                    {"name": "Catedral de Córdoba", "distance": "600m"}
+                ],
+                "reviews": [
+                    {
+                        "user": "Fernando Silva",
+                        "date": "2024-07-05",
+                        "rating": 8,
+                        "comment": "Buena ubicación y ambiente agradable, ideal para mochileros."
+                    },
+                    {
+                        "user": "Laura Peralta",
+                        "date": "2024-06-20",
+                        "rating": 7.5,
+                        "comment": "El personal fue amable, pero el baño podría estar más limpio."
+                    }
+                ],
+                "images": ["./assets/img/cordoba.jpg", "./assets/img/cordoba-2.jpg"]
+            },
+            {
+                "id": 6,
+                "location": "Salta",
+                "gps": {
+                    "latitude": -24.7821,
+                    "longitude": -65.4232
+                },
+                "type": 3,
+                "description": "Cabañas de montaña en Salta con vistas panorámicas, perfectas para una escapada tranquila en la naturaleza.",
+                "pricePerNight": 70,
+                "currency": "USD",
+                "availability": true,
+                "score": 8.9,
+                "services": ["Wi-Fi gratuito", "Estacionamiento gratuito", "Piscina", "Vistas a la montaña", "Parrilla"],
+                "roomDetails": {
+                    "roomType": "Cabaña completa",
+                    "beds": "1 cama doble, 1 cama individual",
+                    "maxGuests": 3
+                },
+                "checkIn": "14:00",
+                "checkOut": "11:00",
+                "cancellationPolicy": "Cancelación gratuita hasta 5 días antes del check-in.",
+                "nearbyAttractions": [
+                    {"name": "Cerro San Bernardo", "distance": "10km"},
+                    {"name": "Museo de Arqueología de Alta Montaña", "distance": "8km"},
+                    {"name": "Catedral de Salta", "distance": "7km"}
+                ],
+                "reviews": [
+                    {
+                        "user": "Nicolás Romero",
+                        "date": "2024-08-15",
+                        "rating": 9,
+                        "comment": "Las vistas son espectaculares, muy recomendado para relajarse."
+                    },
+                    {
+                        "user": "Florencia Díaz",
+                        "date": "2024-07-30",
+                        "rating": 8.8,
+                        "comment": "Excelente lugar, aunque un poco alejado del centro."
+                    }
+                ],
+                "images": ["./assets/img/salta.jpg", "./assets/img/salta-2.jpg"]
+            },
+            {
+                "id": 7,
+                "location": "Córdoba",
+                "gps": {
+                    "latitude": -31.4201,
+                    "longitude": -64.1888
+                },
+                "type": 2,
+                "description": "hostel moderno y económico en el corazón de Córdoba, cerca de la Plaza San Martín. Ideal para jóvenes viajeros.",
+                "pricePerNight": 35,
+                "currency": "USD",
+                "availability": true,
+                "score": 8.0,
+                "services": ["Wi-Fi gratuito", "Cocina compartida", "Sala de juegos", "Terraza"],
+                "roomDetails": {
+                    "roomType": "Dormitorio compartido",
+                    "beds": "1 cama individual",
+                    "maxGuests": 1
+                },
+                "checkIn": "13:00",
+                "checkOut": "10:00",
+                "cancellationPolicy": "Cancelación gratuita hasta 48 horas antes del check-in.",
+                "nearbyAttractions": [
+                    {"name": "Plaza San Martín", "distance": "500m"},
+                    {"name": "Manzana Jesuítica", "distance": "800m"},
+                    {"name": "Catedral de Córdoba", "distance": "600m"}
+                ],
+                "reviews": [
+                    {
+                        "user": "Fernando Silva",
+                        "date": "2024-07-05",
+                        "rating": 8,
+                        "comment": "Buena ubicación y ambiente agradable, ideal para mochileros."
+                    },
+                    {
+                        "user": "Laura Peralta",
+                        "date": "2024-06-20",
+                        "rating": 7.5,
+                        "comment": "El personal fue amable, pero el baño podría estar más limpio."
+                    }
+                ],
+                "images": ["./assets/img/cordoba-2.jpg","./assets/img/cordoba.jpg"]
+            },
+            {
+                "id":8,
+                "location": "Bariloche",
+                "gps": {
+                    "latitude": -41.1335,
+                    "longitude": -71.3103
+                },
+                "type": 3,
+                "description": "Cabañas rústicas pero modernas con vistas espectaculares al lago Nahuel Huapi, ideales para relajarse y disfrutar la naturaleza.",
+                "pricePerNight": 100000,
+                "currency": "ARS",
+                "availability": true,
+                "score": 8.8,
+                "services": ["Wi-Fi gratuito", "Chimenea", "Estacionamiento gratuito", "Parrilla", "Vistas al lago"],
+                "roomDetails": {
+                    "roomType": "Cabaña completa",
+                    "beds": "2 camas matrimoniales",
+                    "maxGuests": 4
+                },
+                "checkIn": "15:00",
+                "checkOut": "10:00",
+                "cancellationPolicy": "Cancelación gratuita hasta 7 días antes del check-in.",
+                "nearbyAttractions": [
+                    {"name": "Lago Nahuel Huapi", "distance": "300m"},
+                    {"name": "Cerro Catedral", "distance": "10km"},
+                    {"name": "Centro de Bariloche", "distance": "12km"}
+                ],
+                "reviews": [
+                    {
+                    "user": "Carlos López",
+                    "date": "2024-07-22",
+                    "rating": 9,
+                    "comment": "Las vistas al lago son impresionantes. Muy acogedor, ideal para descansar."
+                    },
+                    {
+                    "user": "Ana Morales",
+                    "date": "2024-06-18",
+                    "rating": 8,
+                    "comment": "Hermoso lugar, pero un poco alejado del centro de Bariloche."
+                    }
+                ],
+                "images": ["./assets/img/bariloche.jpg","./assets/img/bariloche-2.jpg","./assets/img/bariloche-3.jpg"]
             }
+            
         ],
         "flights": [
             {

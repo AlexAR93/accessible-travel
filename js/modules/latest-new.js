@@ -9,8 +9,8 @@ export default function sliderLatestNew(lodgings){
         const tittle=document.createElement('h2');
         const p=document.createElement('p');
 
-        // ! Que solo se muestren los ultimos 9 hospedajes
-        lodging.id>=lodgings.length-9&&(
+        // ! Que solo se muestren los ultimos 7 hospedajes
+        lodging.id>=lodgings.length-7&&(
         article.setAttribute('id',`product${i}`),
         tittle.innerHTML=lodging.location,
         a.innerHTML='Detalles',

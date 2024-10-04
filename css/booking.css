@@ -2,6 +2,7 @@
   background: #212529;
   height: 90vh;
   overflow: scroll;
+  min-width: 90%;
 }
 .lodging-card {
   text-align: center;
