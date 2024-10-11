@@ -390,71 +390,261 @@
             }
             
         ],
-        "flights": [
-            {
-                "departure": {
-                    "city": "Buenos Aires",
-                    "location": "Ezeiza International Airport (EZE)",
-                    "time": "2024-09-30T08:30:00"
-                },
-                "destination": {
-                    "city": "Córdoba",
-                    "location": "Córdoba International Airport (COR)",
-                    "time": "2024-09-30T10:15:00"
-                },
-                "type": "flight",
-                "transport": "plane",
-                "price": 48000,
-                "currency": "ARS",
-                "availability": true,
-                "airline": "Aerolíneas Argentinas",
-                "duration": "1h 45m",
-                "flightNumber": "AR1365",
-                "class": "Economy"
+    "flights": [
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Ezeiza International Airport (EZE)",
+                "time": "2024-09-30T08:30:00"
             },
-            {
-                "departure": {
-                    "city": "Buenos Aires",
-                    "location": "Jorge Newbery Airport (AEP)",
-                    "time": "2024-10-01T13:00:00"
-                },
-                "destination": {
-                    "city": "Bariloche",
-                    "location": "San Carlos de Bariloche Airport (BRC)",
-                    "time": "2024-10-01T15:30:00"
-                },
-                "type": "flight",
-                "transport": "plane",
-                "price": 72000,
-                "currency": "ARS",
-                "availability": true,
-                "airline": "Flybondi",
-                "duration": "2h 30m",
-                "flightNumber": "FO5234",
-                "class": "First Class"
+            "destination": {
+                "city": "Córdoba",
+                "location": "Córdoba International Airport (COR)",
+                "time": "2024-09-30T10:15:00"
             },
-            {
-                "departure": {
-                    "city": "Buenos Aires",
-                    "location": "Ezeiza International Airport (EZE)",
-                    "time": "2024-10-02T09:00:00"
-                },
-                "destination": {
-                    "city": "Mendoza",
-                    "location": "Governor Francisco Gabrielli International Airport (MDZ)",
-                    "time": "2024-10-02T10:45:00"
-                },
-                "type": "flight",
-                "transport": "plane",
-                "price": 65000,
-                "currency": "ARS",
-                "availability": true,
-                "airline": "LATAM Airlines",
-                "duration": "1h 45m",
-                "flightNumber": "LA5678",
-                "class": "Business"
-            }
+            "type": "flight",
+            "transport": "plane",
+            "price": 48000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "Aerolíneas Argentinas",
+            "duration": "1h 45m",
+            "flightNumber": "AR1365",
+            "class": "Economy"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Ezeiza International Airport (EZE)",
+                "time": "2024-09-30T08:30:00"
+            },
+            "destination": {
+                "city": "Córdoba",
+                "location": "Córdoba International Airport (COR)",
+                "time": "2024-09-30T10:15:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 48000,
+            "currency": "ARS",
+            "availability": false,
+            "airline": "Aerolíneas Argentinas",
+            "duration": "1h 45m",
+            "flightNumber": "AR1365",
+            "class": "Economy"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Ezeiza International Airport (EZE)",
+                "time": "2024-09-30T08:30:00"
+            },
+            "destination": {
+                "city": "Córdoba",
+                "location": "Córdoba International Airport (COR)",
+                "time": "2024-09-30T10:15:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 48000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "Aerolíneas Argentinas",
+            "duration": "1h 45m",
+            "flightNumber": "AR1365",
+            "class": "Business"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Ezeiza International Airport (EZE)",
+                "time": "2024-09-30T08:30:00"
+            },
+            "destination": {
+                "city": "Córdoba",
+                "location": "Córdoba International Airport (COR)",
+                "time": "2024-09-30T10:15:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 48000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "Aerolíneas Argentinas",
+            "duration": "1h 45m",
+            "flightNumber": "AR1365",
+            "class": "Business"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Ezeiza International Airport (EZE)",
+                "time": "2024-09-30T08:30:00"
+            },
+            "destination": {
+                "city": "Córdoba",
+                "location": "Córdoba International Airport (COR)",
+                "time": "2024-09-30T10:15:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 48000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "Aerolíneas Argentinas",
+            "duration": "1h 45m",
+            "flightNumber": "AR1365",
+            "class": "First Class"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Jorge Newbery Airport (AEP)",
+                "time": "2024-10-01T13:00:00"
+            },
+            "destination": {
+                "city": "Bariloche",
+                "location": "San Carlos de Bariloche Airport (BRC)",
+                "time": "2024-10-01T15:30:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 72000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "Flybondi",
+            "duration": "2h 30m",
+            "flightNumber": "FO5234",
+            "class": "First Class"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Jorge Newbery Airport (AEP)",
+                "time": "2024-10-01T13:00:00"
+            },
+            "destination": {
+                "city": "Bariloche",
+                "location": "San Carlos de Bariloche Airport (BRC)",
+                "time": "2024-10-01T15:30:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 72000,
+            "currency": "ARS",
+            "availability": false,
+            "airline": "Flybondi",
+            "duration": "2h 30m",
+            "flightNumber": "FO5234",
+            "class": "First Class"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Jorge Newbery Airport (AEP)",
+                "time": "2024-10-01T13:00:00"
+            },
+            "destination": {
+                "city": "Bariloche",
+                "location": "San Carlos de Bariloche Airport (BRC)",
+                "time": "2024-10-01T15:30:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 72000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "Flybondi",
+            "duration": "2h 30m",
+            "flightNumber": "FO5234",
+            "class": "Business"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Jorge Newbery Airport (AEP)",
+                "time": "2024-10-01T13:00:00"
+            },
+            "destination": {
+                "city": "Bariloche",
+                "location": "San Carlos de Bariloche Airport (BRC)",
+                "time": "2024-10-01T15:30:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 72000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "Flybondi",
+            "duration": "2h 30m",
+            "flightNumber": "FO5234",
+            "class": "Economy"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Ezeiza International Airport (EZE)",
+                "time": "2024-10-02T09:00:00"
+            },
+            "destination": {
+                "city": "Mendoza",
+                "location": "Governor Francisco Gabrielli International Airport (MDZ)",
+                "time": "2024-10-02T10:45:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 65000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "LATAM Airlines",
+            "duration": "1h 45m",
+            "flightNumber": "LA5678",
+            "class": "Business"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Ezeiza International Airport (EZE)",
+                "time": "2024-10-02T09:00:00"
+            },
+            "destination": {
+                "city": "Mendoza",
+                "location": "Governor Francisco Gabrielli International Airport (MDZ)",
+                "time": "2024-10-02T10:45:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 65000,
+            "currency": "ARS",
+            "availability": false,
+            "airline": "LATAM Airlines",
+            "duration": "1h 45m",
+            "flightNumber": "LA5678",
+            "class": "Business"
+        },
+        {
+            "departure": {
+                "city": "Buenos Aires",
+                "location": "Ezeiza International Airport (EZE)",
+                "time": "2024-10-02T09:00:00"
+            },
+            "destination": {
+                "city": "Mendoza",
+                "location": "Governor Francisco Gabrielli International Airport (MDZ)",
+                "time": "2024-10-02T10:45:00"
+            },
+            "type": "flight",
+            "transport": "plane",
+            "price": 65000,
+            "currency": "ARS",
+            "availability": true,
+            "airline": "LATAM Airlines",
+            "duration": "1h 45m",
+            "flightNumber": "LA5678",
+            "class": "First Class"
+        }
     ]
+
   },
     "brands":[
         {

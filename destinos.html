@@ -19,7 +19,7 @@
     </header>
 
     <main class="vh-100 d-flex- align-content-center text-center">
-        <form class="p-4 my-3 rounded-4 bg-light" id="flightBookingForm">
+        <form class="p-4 my-3 rounded-4 bg-light" id="flights-form">
             <h3 class="text-center mb-4 text-uppercase">Reserva tu Vuelo</h3>
             
             <div class="mb-3">
@@ -34,35 +34,58 @@
         
             <div class="mb-3">
                 <label for="departureDate" class="form-label">Fecha de Salida:</label>
-                <input type="date" id="departureDate" name="departureDate" class="form-control" required>
+                <input type="date" id="departureDate" name="departureDate" class="form-control">
             </div>
         
             <div class="mb-3">
-                <label for="returnDate" class="form-label">Fecha de Regreso:</label>
-                <input type="date" id="returnDate" name="returnDate" class="form-control">
-            </div>
-        
-            <div class="mb-3">
-                <label for="flight-class" class="form-label">Clase:</label>
-                <select id="flight-class" name="flight-class" class="form-select" required>
+                <label for="class" class="form-label">Clase:</label>
+                <select id="class" name="class" class="form-select" required>
+                    <option value="all" selected>Ver todas</option>
                     <option value="Economy">Económico</option>
                     <option value="Business">Negocio</option>
                     <option value="First Class">Primera Clase</option>
                 </select>
             </div>
         
-            <button type="submit" class="btn btn-secondary w-100">Buscar Vuelos</button>
+            <button type="submit" class="btn btn-secondary w-100" data-bs-toggle="modal" data-bs-target="#scrollModal">Buscar Vuelos</button>
+        
         </form>
         
     </main>
 
+    <!-- Slider automático de marcas -->
+    <aside>
+        <div class="brands bg-white">
+            <!-- Contenido viene por js -->
+            <div class="brands__slider" id="brands-slider">
+            </div>
+        </div>
+    </aside>
 
     <footer>
         <!-- Footer -->
     </footer>
+
+    <aside>
+        <div class="modal fade" id="scrollModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fs-5" id="scrollModalLabel">Vuelos:</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-wrap justify-content-center gap-2 overflow-auto" style="max-height: 80vh;" id="modal-body">
+                    
+                </div>
+              </div>
+            </div>
+        </div>
+    </aside>
     
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/index.js" type="module"></script>
+
+    <script src="./js/pages/destinations.js" type="module"></script>
 </body>
 </html>
